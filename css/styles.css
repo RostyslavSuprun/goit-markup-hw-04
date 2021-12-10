@@ -233,12 +233,12 @@ h2 {
   display: flex;
   justify-content: center;
 }
-.container.examples {
+/* .container.examples {
   max-width: 1600px;
-}
+} */
 .section.comand {
   background-color: #f5f4fa;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -335,8 +335,8 @@ h2 {
 
 /* ====footer==== */
 .footer {
-  max-width: 1600px;
-  height: 252px;
+  /* max-width: 1600px; */
+  /* height: 252px; */
   background-color: var(--background-color);
   color: var(--secondary-text-color);
   margin-left: auto;
@@ -530,6 +530,10 @@ address {
   height: 44px;
   padding: 12px;
   fill: #afb1b8;
+}
+.social-link:not(:last-child),
+.footer-link:not(:last-child) {
+  margin-right: 10px;
 }
 .social-link:hover svg,
 .social-link:focus svg {
